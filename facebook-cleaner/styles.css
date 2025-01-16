@@ -1,0 +1,4 @@
+/* 例: スポンサーリンクを非表示 */
+[aria-label="Sponsored"] {
+  display: none !important;
+}

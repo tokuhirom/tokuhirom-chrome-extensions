@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Facebook Cleaner",
+  "version": "1.0",
+  "description": "Remove unwanted elements from Facebook.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.facebook.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
