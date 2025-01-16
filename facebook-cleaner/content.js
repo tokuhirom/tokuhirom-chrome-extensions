@@ -1,11 +1,7 @@
 // 指定された要素内に「フォローする」というテキストを持つ <span> があるかどうかをチェックし、要素を非表示にする
 function hideFollowElements(feedUnit) {
-  const spans = feedUnit.getElementsByTagName('span');
-  for (let span of spans) {
-    if (span.innerHTML.includes('フォローする') || span.innerHTML.includes('広告') || span.innerHTML.includes('参加する')) {
-      feedUnit.style.display = 'none';
-      break;
-    }
+  if (feedUnit.innerHTML.includes('フォローする') || feedUnit.innerHTML.includes('広告') || feedUnit.innerHTML.includes('参加する')) {
+    feedUnit.style.display = 'none';
   }
 }
 
