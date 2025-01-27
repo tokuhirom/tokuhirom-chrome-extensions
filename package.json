@@ -1,0 +1,23 @@
+{
+  "name": "tokuhirom-chrome-extensions",
+  "version": "1.0.0",
+  "description": "ちょっとした chrome 拡張を置いておく｡ ストアで公開するのは面倒なので､developer mode で読み込ませて使っています｡｡",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tokuhirom/tokuhirom-chrome-extensions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tokuhirom/tokuhirom-chrome-extensions/issues"
+  },
+  "homepage": "https://github.com/tokuhirom/tokuhirom-chrome-extensions#readme",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "prettier": "^3.4.2"
+  }
+}
